@@ -14,10 +14,7 @@ def generates_frames(cursor, min_size: int) -> None:
     """
     frames = cursor.frames
     new_frames = []
-    image_size = frames[0].images[0].nominal
     for size in MULTSCALE:
-        if size > image_size:
-            continue
         if size < min_size:
             break
         for frame in frames:
