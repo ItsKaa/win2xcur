@@ -36,7 +36,7 @@ def main() -> None:
                         help='Scale the cursor by the specified factor.')
     parser.add_argument('--multiscale', action='store_true',
                         help='Generate multiple sizes for each cursor.')
-    parser.add_argument('--multiscale-min', type=int, default=12,
+    parser.add_argument('--multiscale-min', type=int, default=16,
                         help='Minimum size to generate.')
 
     args = parser.parse_args()
