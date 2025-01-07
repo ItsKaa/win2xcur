@@ -1,6 +1,6 @@
 from win2xcur.cursor import CursorFrame, CursorImage
 
-MULTSCALE = [16, 24, 32, 48, 64, 96, 128, 192, 256]
+MULTSCALE = [16, 20, 22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96]
 
 def generates_frames(cursor, min_size: int) -> None:
     """Generates multiple sizes for each cursor.
